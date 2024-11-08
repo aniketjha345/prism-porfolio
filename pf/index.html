@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Using HTML & CSS | Codehal</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav class="navbar">
+    <a href="#" class="logo">Portfolio</a>
+    <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home">
+        <div class="home-info">
+            <h1>Aniket Jha</h1>
+            <h2>I'm a 
+                <span style="--i:4;" data-text="Ethical hacker">Ethical hacker</span>
+                <span style="--i:3;" data-text="Youtuber">Youtuber</span>
+                <span style="--i:2;" data-text="Blogger">Blogger</span>
+                <span style="--i:1;" data-text="Devloper">Devloper</span>
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque officiis inventore voluptatum voluptates error aliquid necessitatibus rerum voluptas assumenda? Voluptatum hic voluptatem blanditiis explicabo suscipit obcaecati, modi architecto ab.</p>
+        <div class="btn-sci">
+            <a href="#" class="btn">Download CV</a>
+            <div class="sci">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="homes.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+<section class="about" id="about">
+    <div class="about-content">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem.</p>
+        <p>I am an ethical hacker, developer, and tech enthusiast dedicated to creating secure, functional web applications.</p>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio-gallery">
+        <div class="portfolio-item"><img src="project1.jpg" alt="Project 1"></div>
+        <div class="portfolio-item"><img src="project2.jpg" alt="Project 2"></div>
+        <div class="portfolio-item"><img src="project3.jpg" alt="Project 3"></div>
+    </div>
+</section>
+
+<!-- Blogs Section -->
+<section class="blogs" id="blogs">
+    <h2>Blogs</h2>
+    <div class="blog-posts">
+        <div class="blog-post">
+            <h3>Blog Title 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="blog-post">
+            <h3>Blog Title 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form action="#">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+</body>
+
+</html>
